@@ -12,4 +12,7 @@ To add it to the project I use [commitlint website](https://commitlint.js.org/#/
 I always prefer this way to deal with commit messages. It has a lot of benefits, 
 [read more](https://www.conventionalcommits.org/en/v1.0.0/) about the conception.
 
+### npm-check-updates helper
+I use this tool weekly to manually update the dependencies
+
 [shields-conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
