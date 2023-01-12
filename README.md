@@ -5,6 +5,8 @@ This repository contains my favorite tools and complete guides how to set everyt
 [![Conventional Commits][shields-conventional-commits-image]](https://conventionalcommits.org)
 
 ## Includes
+### [vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths)
+Give vite the ability to resolve imports using TypeScript's path mapping
 
 ### Commitlint + conventional commits
 To add it to the project I use [commitlint website](https://commitlint.js.org/#/guides-local-setup).
