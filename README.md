@@ -8,11 +8,14 @@ This repository contains my favorite tools and complete guides how to set everyt
 ### [vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths)
 Give vite the ability to resolve imports using TypeScript's path mapping
 
-### Commitlint + conventional commits
+### commitlint + conventional commits
 To add it to the project I use [commitlint website](https://commitlint.js.org/#/guides-local-setup).
 
 I always prefer this way to deal with commit messages. It has a lot of benefits, 
 [read more](https://www.conventionalcommits.org/en/v1.0.0/) about the conception.
+
+### [eslint](https://eslint.org/)
+To add it to the project I use `npm init @eslint/config` command.
 
 ### npm-check-updates helper
 I use this tool weekly to manually update the dependencies
