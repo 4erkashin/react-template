@@ -14,6 +14,9 @@ I always prefer this way to deal with commit messages. It has a lot of benefits,
 ### [eslint](https://eslint.org/)
 To add it to the project I use `npm init @eslint/config` command.
 
+### [prettier](https://prettier.io/)
+To add it to the project I follow [official guide](https://prettier.io/docs/en/install.html).
+
 ### npm-check-updates helper
 I use this tool weekly to manually update the dependencies
 
