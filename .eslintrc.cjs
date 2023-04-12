@@ -10,6 +10,7 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
+    'plugin:storybook/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -35,7 +36,9 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [
       1,
-      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
     ],
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',

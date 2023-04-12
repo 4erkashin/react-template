@@ -21,6 +21,12 @@ To add it to the project I use `npm init @eslint/config` command.
 
 To add it to the project I follow [official guide](https://prettier.io/docs/en/install.html).
 
+### [storybook](https://storybook.js.org/)
+
+Storybook is a tool for building UI components and pages in isolation.
+
+To add it to the project I follow [official guide](https://storybook.js.org/docs/react/get-started/install/).
+
 ### npm-check-updates helper
 
 I use this tool weekly to manually update the dependencies
