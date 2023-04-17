@@ -43,6 +43,7 @@ module.exports = {
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
     'react/function-component-definition': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
   },
   overrides: [
     {
