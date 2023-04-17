@@ -44,6 +44,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/function-component-definition': 'off',
     'react/jsx-no-useless-fragment': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
   },
   overrides: [
