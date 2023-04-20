@@ -7,7 +7,7 @@ import checker from 'vite-plugin-checker';
 import autoprefixer from 'autoprefixer';
 
 export default defineConfig({
-  base: '/react-template/',
+  base: import.meta.env.BASE_URL,
   plugins: [react(), tsconfigPaths(), checker({ typescript: true })],
   css: {
     postcss: {
