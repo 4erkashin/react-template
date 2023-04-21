@@ -6,6 +6,11 @@ This repository contains my favorite tools and complete guides how to set everyt
 
 ## Includes
 
+### deploy to gh-pages [workflow](.github/workflows/pages.yml)
+Allows to deploy spa project to github pages via github action
+
+Please adjust `VITE_BASE_URL` in [.env](.env) to fit your repo name
+
 ### commitlint + conventional commits
 
 To add it to the project I use [commitlint website](https://commitlint.js.org/#/guides-local-setup).
