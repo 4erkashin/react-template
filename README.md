@@ -21,6 +21,29 @@ To add it to the project I use `npm init @eslint/config` command.
 
 To add it to the project I follow [official guide](https://prettier.io/docs/en/install.html).
 
+### [autoprefixer](https://autoprefixer.github.io/)
+To add it to the project I run `npm i -D postcss@latest autoprefixer@latest`
+
+Then add a file postcss.config.js on the root project directory
+```js
+module.exports = {
+  plugins: {
+    autoprefixer: {}
+  }
+}
+```
+
+Then patch `vite.config.ts` with this section:
+```js
+css: {
+    postcss: {
+      plugins: [
+        autoprefixer({}) // add options if needed
+      ]
+    }
+  }
+```
+
 ### [storybook](https://storybook.js.org/)
 
 Storybook is a tool for building UI components and pages in isolation.
