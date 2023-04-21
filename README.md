@@ -54,6 +54,9 @@ To add it to the project I follow [official guide](https://storybook.js.org/docs
 
 I use this tool weekly to manually update the dependencies
 
+### [vite loadEnv](https://vitejs.dev/config/#using-environment-variables-in-config)
+Allows to use env variables in config
+
 ### [vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths)
 
 Give vite the ability to resolve imports using TypeScript's path mapping
