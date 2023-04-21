@@ -65,4 +65,7 @@ Give vite the ability to resolve imports using TypeScript's path mapping
 
 Vite plugin that provide checks e.g. `[TypeScript] Found 0 errors. Watching for file changes.`
 
+### local https via [vite-plugin-mkcert](https://www.npmjs.com/package/vite-plugin-mkcert)
+Allows to use https://localhost in development
+
 [shields-conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
