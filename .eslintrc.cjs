@@ -47,6 +47,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
+    'consistent-return': 'off',
   },
   overrides: [
     {
