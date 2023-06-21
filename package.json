@@ -41,7 +41,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-storybook": "^0.6.12",
     "husky": "^8.0.3",
-    "postcss": "^8.4.23",
+    "postcss": "^8.4.24",
     "prettier": "2.8.8",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.7",
