@@ -48,6 +48,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'consistent-return': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
   overrides: [
     {
