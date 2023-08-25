@@ -18,6 +18,9 @@ To add it to the project I use [commitlint website](https://commitlint.js.org/#/
 I always prefer this way to deal with commit messages. It has a lot of benefits,
 [read more](https://www.conventionalcommits.org/en/v1.0.0/) about the conception.
 
+### basic css layout + [clsx](https://www.npmjs.com/package/clsx) util lib
+See `src/styles.css` and `src/app/App.tsx`
+
 ### [eslint](https://eslint.org/)
 
 To add it to the project I use `npm init @eslint/config` command.

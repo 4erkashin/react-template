@@ -1,0 +1,60 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.appHeader {
+  padding: .5em 1em;
+
+  background-color: var(--baseColor);
+}
+
+.appMain {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.appSidebar {
+  flex-basis: 15%;
+
+  padding: .5em 1em;
+
+  background-color: var(--baseColorLight);
+}
+
+.appSectionCenter {
+  flex-grow: 1;
+
+  padding: .5em 1em;
+
+  background-color: var(--baseColorDark);
+}
+
+.appFooter {
+  padding: .5em 1em;
+
+  background-color: var(--baseColor);
+}
+
+.folders {
+  padding: .5em;
+
+  background-color: var(--accentColor);
+}
+
+.folder {
+  padding: .5em;
+
+  background-color: var(--accentColorLight);
+}
+
+.folder:not(:last-child) {
+  margin-bottom: .5em;
+}
+
+.dropActive {
+  border: 2px solid red;
+}
