@@ -1,4 +1,5 @@
 import { clsx } from 'clsx';
+
 import styles from './App.module.css';
 
 export const App = () => (

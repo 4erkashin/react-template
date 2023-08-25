@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ['react', '@typescript-eslint', 'import'],
+  plugins: ['react', '@typescript-eslint', 'import', 'simple-import-sort'],
   extends: [
     'plugin:react/recommended',
     'airbnb',
@@ -34,21 +34,33 @@ module.exports = {
     },
   },
   rules: {
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    ],
+    'consistent-return': 'off',
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
     'react/function-component-definition': 'off',
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
     'react/jsx-no-useless-fragment': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'react/require-default-props': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'consistent-return': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/require-default-props': 'off',
+    'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          // Side effect imports
+          ['^\\u0000'],
+          // Packages (global imports)
+          ['^@?\\w'],
+          // Relative imports
+          ['^\\.'],
+        ],
+      },
+    ],
   },
   overrides: [
     {
